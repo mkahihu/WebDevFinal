@@ -1,0 +1,9 @@
+/*Author: Morrison*/
+h1, h2, .display
+{
+    text-align:center;
+}
+canvas
+{
+    border:solid 1px black;
+}
