@@ -6,4 +6,37 @@ h1, h2, .display
 canvas
 {
     border:solid 1px black;
+    width:70%;
+    
+    margin-left:5em;
+    
+
+
+
+  
+
+   
+    
 }
+#colorpanel
+{
+    width:10%;
+    float: left;
+}
+#brushpanel
+{
+    width:10%;
+    float:right;
+    
+}
+
+button
+{
+    width:100%;
+    margin:0;
+    font-size:100%;
+}
+
+
+
+
