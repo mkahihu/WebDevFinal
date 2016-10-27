@@ -8,7 +8,7 @@
     <script type="text/javascript" src="Final.js">
     </script>
 </head>
-<body>
+<body onload="main();">
 <header>
     <h1> WOWZA </h1>
 </header>
@@ -16,22 +16,24 @@
     <canvas width="800px" height="800px">
     </canvas>
     <div id = "colorpanel">
-        <button onclick= "">Black</button>
-        <button onclick= "">White</button>
-        <button onclick= "">Gray</button>
-        <button onclick= "">Brown</button>
-        <button onclick= "">Orange</button>
-        <button onclick= "">Yellow</button>
-        <button onclick= "">Green</button>
-        <button onclick="">Purple</button>
-        <button onclick="">Pink</button>
+        <button onclick= "selectColor('#000000')">Black</button>
+        <button onclick= "selectColor('#FFFFFF')">White</button>
+        <button onclick= "selectColor('#808080')">Gray</button>
+        <button onclick= "selectColor('#000000')">Brown</button>
+        <button onclick= "selectColor('#FF0000')">Red</button>
+        <button onclick= "selectColor('#FFC0CB')">Pink</button>
+        <button onclick= "selectColor('#FFA500')">Orange</button>
+        <button onclick= "selectColor('#FFFF00')">Yellow</button>
+        <button onclick= "selectColor('#00FF00')">Green</button>
+        <button onclick= "selectColor('#0000FF')">Orange</button>
+        <button onclick= "selectColor('#800080')">Purple</button>
         <input type = "text" id = "hexcode" value =" ">
     </div>
     <div id = "brushpanel">
-        <button onclick = "">Pen</button>    
-        <button onclick = "">Brush</button>    
-        <button onclick = "">Eraser</button>    
-        <button onclick = "">Fill</button>    
+        <button onclick = "selectBrush('Pen')">Pen</button>    
+        <button onclick = "selectBrush('Brush')">Brush</button>    
+        <button onclick = "selectBrush('Eraser')">Eraser</button>    
+        <button onclick = "selectBrush('Fill')">Fill</button>    
     </div>
 </main>
 </body>
