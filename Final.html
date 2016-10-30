@@ -1,6 +1,4 @@
-<!doctype html>
 <!--Author: Miller Kahihu Tiffany Tang-->
-
 <html>
 <head>
     <title>Final</title>
@@ -13,27 +11,19 @@
     <h1> WOWZA </h1>
 </header>
 <main>
-    <canvas id = "myCanvas" width="800px" height="800px">
+    <canvas id="myCanvas" width="800px" height="800px">
     </canvas>
     <div id = "colorpanel">
-        <button style="background-color:black;color:white"  onclick= "selectColor('#000000')">Black</button>
-        <button style="background-color:white;color:black"  onclick= "selectColor('#FFFFFF')">White</button>
-        <button style="background-color:grey;color:white"  onclick= "selectColor('#808080')">Gray</button>
-        <button style="background-color:brown;color:white"  onclick= "selectColor('#000000')">Brown</button>
-        <button style="background-color:red;color:white" onclick= "selectColor('#FF0000')">Red</button>
-        <button style="background-color:pink;color:black"  onclick= "selectColor('#FFC0CB')">Pink</button>
-        <button style="background-color:orange;color:black" onclick= "selectColor('#FFA500')">Orange</button>
-        <button style="background-color:yellow;color:black"  onclick= "selectColor('#FFFF00')">Yellow</button>
-        <button style="background-color:green;color:white"  onclick= "selectColor('#00FF00')">Green</button>
-
-        <button style="background-color:purple;color:white" onclick= "selectColor('#800080')">Purple</button>
-        <input type = "text" id = "hexcode" value =" ">
-    </div>
-    <div id = "brushpanel">
-        <button><img src="" alt="Pen"  onclick = "selectBrush('Pen')">Pen</button>    
-        <button><img src="https://www.splitbrain.org/_static/ico/defaulticon/ico/brush.png" alt="Brush"  onclick = "selectBrush('Brush')">Brush</button>    
-        <button img src="" alt="Eraser"  onclick = "selectBrush('Eraser')">Eraser</button>    
-        <button img src="" alt="Fill" onclick = "selectBrush('Fill')">Fill</button>    
+        <button style="background-color:black;color:white"  onclick= "selectColor('#000000');">Black</button>
+        <button style="background-color:grey;color:white"  onclick= "selectColor('#808080');">Gray</button>
+        <button style="background-color:brown;color:white"  onclick= "selectColor('#A52A2A');">Brown</button>
+        <button style="background-color:red;color:white" onclick= "selectColor('#FF0000');">Red</button>
+        <button style="background-color:pink;color:black"  onclick= "selectColor('#FFC0CB');">Pink</button>
+        <button style="background-color:orange;color:black" onclick= "selectColor('#FFA500');">Orange</button>
+        <button style="background-color:yellow;color:black"  onclick= "selectColor('#FFFF00');">Yellow</button>
+        <button style="background-color:green;color:white"  onclick= "selectColor('#00FF00');">Green</button>
+        <button style="background-color:purple;color:white" onclick= "selectColor('#800080');">Purple</button>
+        <input type = "text" id = "hexcode" value ="#000000" onchange="changeColor()">
     </div>
 </main>
 </body>

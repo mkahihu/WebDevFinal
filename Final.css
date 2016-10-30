@@ -3,20 +3,13 @@ h1, h2, .display
 {
     text-align:center;
 }
+
 canvas
 {
     border:solid 1px black;
     width:70%;
-    
     margin-left:5em;
-    
-
-
-
-  
-
-   
-    
+    text-align:center;
 }
 #colorpanel
 {
@@ -26,8 +19,7 @@ canvas
 #brushpanel
 {
     width:10%;
-    float:right;
-    
+    float:right;    
 }
 
 button
@@ -36,7 +28,3 @@ button
     margin:0;
     font-size:100%;
 }
-
-
-
-
