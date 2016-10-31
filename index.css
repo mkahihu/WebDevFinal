@@ -1,0 +1,20 @@
+/*Author: Miller Kahihu and Tiffany Tang*/
+body
+{
+	background-image:url("WDF_706706.png");
+}
+header
+{
+	text-align: center;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	color:white;
+	font-weight:bold;
+}
+main
+{
+	text-align: center;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
