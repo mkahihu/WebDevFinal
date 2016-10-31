@@ -1,6 +1,8 @@
 <!--Author: Miller Kahihu Tiffany Tang-->
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Final</title>
     <link rel="stylesheet" href="Final.css"/>
     <script type="text/javascript" src="Final.js">
@@ -8,14 +10,16 @@
 </head>
 <body onload="main();">
 <header>
-    <h1> WOWZA </h1>
+    <h1>WebDev Final Project</h1>
+    <h2>Miller Kahihu and Tiffany Tang</h2>
 </header>
 <main>
     <canvas id="myCanvas" width="600px" height="600px">
     </canvas>
     <div id = "colorpanel">
+    <div id="yaboi">
         <button style="background-color:black;color:white"  onclick= "selectColor('#000000');"></button>
-        <button style="background-color:grey;color:white"  onclick= "selectColor('#808080');"></button>
+        <button style="background-color:blue;color:white"  onclick= "selectColor('#0000FF');"></button>
         <button style="background-color:brown;color:white"  onclick= "selectColor('#A52A2A');"></button>
         <button style="background-color:red;color:white" onclick= "selectColor('#FF0000');"></button>
         <button style="background-color:pink;color:black"  onclick= "selectColor('#FFC0CB');"></button>
@@ -24,6 +28,7 @@
         <button style="background-color:green;color:white"  onclick= "selectColor('#00FF00');"></button>
         <button style="background-color:purple;color:white" onclick= "selectColor('#800080');"></button>
         <input type = "text" id = "hexcode" value ="#000000" onchange="changeColor()">
+    </div>
     </div>
 </main>
 </body>

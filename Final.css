@@ -1,30 +1,60 @@
 /*Author: Miller Kahihu and Tiffany Tang*/
-h1, h2, .display
+h1
 {
     text-align:center;
-}
+    font-family:"Comic Sans MS",cursive,sans-serif;
+    color:white;
+    font-weight:bold;
 
+    
+}
+h2
+{
+    text-align:center;
+    font-family:"Comic Sans MS",cursive,sans-serif;
+   color:white; 
+    font-weight:bold;  
+   margin-top:10px; 
+}
+body
+{
+ background-image:url("WDF_706706.png");   
+}
 canvas
 {
     border:solid 1px black;
-    width:70%;
-    margin-left:5em;
-    text-align:center;
+    background-color:white;
+    
+    
 }
 #colorpanel
 {
-    width:10%;
-    float: left;
+   width:305px;
+   height:420px;
+    float:left;
+    margin-left:5em;
+    background-image:url("M2YkVqk.jpg");
+
 }
-#brushpanel
+#yaboi
 {
-    width:10%;
-    float:right;    
+    margin-left:5em;
+    float:left;
+    margin-right:100em;
+    margin-top:10em;
 }
 
 button
 {
-    width:100%;
-    margin:0;
-    font-size:100%;
-}
+
+    width:50px;
+    height:50px;
+    border-radius:35px;
+   border-color:white; 
+
+    
+   }
+
+
+
+

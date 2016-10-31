@@ -13,6 +13,8 @@ function changeColor()
     {
         color = "#" + hex;
         document.getElementById("hexcode").value = color;
+        
+       
     }
     else
     {
@@ -89,3 +91,5 @@ function main()
         paint = false;
     });
 }
+             
+
